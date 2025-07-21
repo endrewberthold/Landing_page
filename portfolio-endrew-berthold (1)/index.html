@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endrew Berthold - Full-Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<!-- Cabeçalho -->
+<header class="cabecalho">
+    <div class="container-cabecalho">
+        <div class="nome-desenvolvedor">
+            <div class="nome-linha">Endrew</div>
+            <div class="nome-linha">Berthold</div>
+        </div>
+
+        <nav class="menu-navegacao">
+            <a href="#inicio" class="link-navegacao">Início</a>
+            <a href="#projetos" class="link-navegacao">Projetos</a>
+            <a href="#sobre" class="link-navegacao">Sobre</a>
+            <a href="#contato" class="link-navegacao">Contato</a>
+        </nav>
+
+        <div class="logo-iniciais">{EB}</div>
+    </div>
+</header>
+
+<!-- Seção Início -->
+<section id="inicio" class="secao-inicio">
+    <div class="container-inicio">
+        <div class="conteudo-principal">
+            <div class="lado-esquerdo">
+                <div class="titulos-principais">
+                    <h1 class="titulo-fullstack">Full-Stack</h1>
+                    <h2 class="titulo-developer">Developer</h2>
+                </div>
+                <p class="introducao-breve">
+                    Meu objetivo é escrever <code><strong>código limpo</strong></code>, <code><strong>sustentável</code></strong> e <code><strong>compreensível</code></strong>
+                    para que o processo de desenvolvimento seja agradável.
+                </p>
+            </div>
+
+            <div class="lado-direito">
+                <button class="botao-projetos" onclick="navegarPara('#projetos')">
+                    <span class="texto-projetos">Projetos</span>
+                    <div class="circulo-seta">
+                        <span class="seta">→</span>
+                    </div>
+                </button>
+
+                <div class="elementos-decorativos">
+                    <div class="linha-codigo">
+                        <span class="comentario">// Classe JavaScript</span>
+                    </div>
+                    <div class="linha-codigo">
+                        <span class="variavel">class</span> <span class="nome-var">Developer</span> {
+                    </div>
+                    <div class="linha-codigo">
+                        &nbsp;&nbsp;<span class="variavel">constructor</span>() {
+                    </div>
+                    <div class="linha-codigo">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="variavel">this</span>.<span class="nome-var">name</span> = <span class="string">"Endrew Berthold"</span>;
+                    </div>
+                    <div class="linha-codigo">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="variavel">this</span>.<span class="nome-var">skills</span> = [<span class="string">"Full-Stack"</span>];
+                    </div>
+                    <div class="linha-codigo">
+                        &nbsp;&nbsp;}
+                    </div>
+                    <div class="linha-codigo">
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="redes-sociais">
+            <a href="https://github.com/endrew-berthold" class="botao-rede-social" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/endrew-berthold" class="botao-rede-social" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://instagram.com/endrew.berthold" class="botao-rede-social" target="_blank">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+                <span>Instagram</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Seção Projetos -->
+<section id="projetos" class="secao-projetos">
+    <div class="container-projetos">
+        <h2 class="titulo-secao">~/projetos</h2>
+
+        <div class="grade-projetos">
+            <div class="card-projeto" onclick="abrirModal('modal-scada')">
+                <h3>SCADA-LTS</h3>
+                <p>Plataforma SCADA de código aberto, web-based</p>
+                <div class="tecnologias">Java • Spring • PostgreSQL</div>
+            </div>
+
+            <div class="card-projeto" onclick="abrirModal('modal-shell')">
+                <h3>Shell Scripting</h3>
+                <p>Scripts de automação de tarefas no Linux</p>
+                <div class="tecnologias">Bash • Linux • Automation</div>
+            </div>
+
+            <div class="card-projeto" onclick="abrirModal('modal-superset')">
+                <h3>Apache Superset</h3>
+                <p>Deploy completo com Gunicorn e Nginx</p>
+                <div class="tecnologias">Python • Nginx • Docker</div>
+            </div>
+
+            <div class="card-projeto" onclick="abrirModal('modal-database')">
+                <h3>Acesso Remoto BD</h3>
+                <p>Configuração de acesso e autenticação remotos</p>
+                <div class="tecnologias">MySQL • PostgreSQL • Security</div>
+            </div>
+
+            <div class="card-projeto" onclick="abrirModal('modal-api')">
+                <h3>API REST Completa</h3>
+                <p>API robusta com autenticação JWT e documentação Swagger</p>
+                <div class="tecnologias">Node.js • Express • MongoDB • JWT</div>
+            </div>
+
+            <div class="card-projeto" onclick="abrirModal('modal-dashboard')">
+                <h3>Dashboard Analytics</h3>
+                <p>Painel de controle com métricas em tempo real e relatórios</p>
+                <div class="tecnologias">React • Chart.js • WebSocket • Redis</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Sobre -->
+<section id="sobre" class="secao-sobre">
+    <div class="container-sobre">
+        <h2 class="titulo-secao">./sobre-mim</h2>
+
+        <p class="apresentacao">
+            Sou um desenvolvedor full-stack com experiência em criar soluções robustas e escaláveis.
+            Apaixonado por tecnologia e sempre em busca de novos desafios.
+        </p>
+
+        <div class="conteudo-sobre">
+            <div class="habilidades-container">
+                <div class="categoria-habilidade">
+                    <h3>Front-End</h3>
+                    <p>HTML / CSS / JavaScript / React / Vue.js</p>
+                </div>
+
+                <div class="categoria-habilidade">
+                    <h3>Back-End</h3>
+                    <p>Node.js / Python / Java / Spring / Django</p>
+                </div>
+
+                <div class="categoria-habilidade">
+                    <h3>Design</h3>
+                    <p>UI/UX / Figma / Adobe XD / Responsive Design</p>
+                </div>
+
+                <div class="categoria-habilidade">
+                    <h3>DevOps</h3>
+                    <p>Docker / Nginx / Linux / AWS / CI/CD</p>
+                </div>
+            </div>
+
+            <div class="foto-desenvolvedor">
+                <img src="WhatsApp%20Image%202025-07-21%20at%2012.10.16.jpeg" alt="Endrew Berthold" />
+            </div>
+        </div>
+
+        <div class="experiencias">
+            <h3 class="titulo-experiencias">./experiências</h3>
+
+            <div class="item-experiencia">
+                <div class="ano-experiencia">2023-2024</div>
+                <div class="detalhes-experiencia">
+                    <h4>Tech Solutions Inc.</h4>
+                    <p>Desenvolvedor Full-Stack Sênior</p>
+                    <span class="tecnologia-principal">React • Node.js • PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="linha-separadora"></div>
+
+            <div class="item-experiencia">
+                <div class="ano-experiencia">2021-2023</div>
+                <div class="detalhes-experiencia">
+                    <h4>Digital Innovations Ltd.</h4>
+                    <p>Desenvolvedor Full-Stack</p>
+                    <span class="tecnologia-principal">Vue.js • Python • MySQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Contato -->
+<section id="contato" class="secao-contato">
+    <div class="container-contato">
+        <h2 class="titulo-secao">:~$ contato</h2>
+
+        <div class="conteudo-contato">
+            <div class="informacoes-contato">
+                <div class="item-contato">
+                    <span class="prefixo-terminal">~$</span>
+                    <span class="rotulo">email:</span>
+                    <span class="valor">endrew.berthold@email.com</span>
+                </div>
+
+                <div class="item-contato">
+                    <span class="prefixo-terminal">~$</span>
+                    <span class="rotulo">telefone:</span>
+                    <span class="valor">+55 (11) 99999-9999</span>
+                </div>
+
+                <div class="item-contato">
+                    <span class="prefixo-terminal">~$</span>
+                    <span class="rotulo">cidade:</span>
+                    <span class="valor">São Paulo, SP</span>
+                </div>
+                <div class="bloco-css-decorativo">
+                    <div class="elementos-decorativos">
+                        <div class="linha-codigo">
+                            <span class="comentario">/* Style */</span>
+                        </div>
+                        <div class="linha-codigo">
+                            <span class="variavel">.terminal</span> <span>{</span>
+                        </div>
+                        <div class="linha-codigo">
+                            &nbsp;&nbsp;<span class="variavel">background</span>: <span class="string">#111111</span>;
+                        </div>
+                        <div class="linha-codigo">
+                            &nbsp;&nbsp;<span class="variavel">color</span>: <span class="string">#00ff88</span>;
+                        </div>
+                        <div class="linha-codigo">
+                            &nbsp;&nbsp;<span class="variavel">font-family</span>: <span class="string">"Fira Code"</span>;
+                        </div>
+                        <div class="linha-codigo">
+                            <span>}</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <form class="formulario-contato" onsubmit="enviarFormulario(event)">
+                <div class="campo-formulario">
+                    <label for="nome">./nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">./email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensagem">./mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Modais dos Projetos -->
+<div id="modal-scada" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-scada')">&times;</span>
+        <h2>SCADA-LTS</h2>
+        <div class="conteudo-artigo">
+            <p>O SCADA-LTS é uma plataforma SCADA (Supervisory Control and Data Acquisition) de código aberto, desenvolvida para web. Este projeto representa uma evolução significativa no monitoramento e controle de sistemas industriais.</p>
+
+            <h3>Características Principais:</h3>
+            <ul>
+                <li>Interface web moderna e responsiva</li>
+                <li>Suporte a múltiplos protocolos industriais</li>
+                <li>Sistema de alarmes em tempo real</li>
+                <li>Dashboards customizáveis</li>
+                <li>Histórico de dados e relatórios</li>
+            </ul>
+
+            <h3>Tecnologias Utilizadas:</h3>
+            <p>Java Spring Framework, PostgreSQL, JavaScript, HTML5/CSS3, WebSockets para comunicação em tempo real.</p>
+
+            <h3>Desafios e Soluções:</h3>
+            <p>O principal desafio foi garantir a comunicação em tempo real entre os dispositivos industriais e a interface web, mantendo a performance e confiabilidade necessárias para ambientes críticos.</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal-shell" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-shell')">&times;</span>
+        <h2>Shell Scripting</h2>
+        <div class="conteudo-artigo">
+            <p>Desenvolvimento de scripts de automação em Shell para aumentar a produtividade e estabilidade de sistemas Linux. Esta coleção de scripts abrange desde tarefas simples de manutenção até processos complexos de deploy.</p>
+
+            <h3>Scripts Desenvolvidos:</h3>
+            <ul>
+                <li>Backup automatizado de bancos de dados</li>
+                <li>Monitoramento de recursos do sistema</li>
+                <li>Deploy automatizado de aplicações</li>
+                <li>Limpeza e manutenção de logs</li>
+                <li>Configuração de ambientes de desenvolvimento</li>
+            </ul>
+
+            <h3>Benefícios Alcançados:</h3>
+            <p>Redução de 70% no tempo gasto em tarefas repetitivas, diminuição significativa de erros humanos e padronização de processos operacionais.</p>
+
+            <h3>Tecnologias:</h3>
+            <p>Bash, Cron, systemd, Git hooks, Docker integration.</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal-superset" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-superset')">&times;</span>
+        <h2>Apache Superset</h2>
+        <div class="conteudo-artigo">
+            <p>Deploy completo do Apache Superset em ambiente de produção, utilizando Gunicorn como servidor WSGI e Nginx como proxy reverso. Este projeto envolveu a configuração completa de uma plataforma de Business Intelligence.</p>
+
+            <h3>Arquitetura Implementada:</h3>
+            <ul>
+                <li>Nginx como proxy reverso e load balancer</li>
+                <li>Gunicorn para servir a aplicação Python</li>
+                <li>PostgreSQL como banco de dados principal</li>
+                <li>Redis para cache e sessões</li>
+                <li>SSL/TLS com certificados Let's Encrypt</li>
+            </ul>
+
+            <h3>Configurações de Segurança:</h3>
+            <p>Implementação de autenticação OAuth, configuração de CORS, rate limiting e monitoramento de logs de segurança.</p>
+
+            <h3>Performance:</h3>
+            <p>Otimização de queries, implementação de cache estratégico e configuração de workers para suportar alta concorrência.</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal-database" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-database')">&times;</span>
+        <h2>Acesso Remoto a Banco de Dados</h2>
+        <div class="conteudo-artigo">
+            <p>Configuração segura de acesso remoto a bancos de dados MySQL e PostgreSQL, implementando autenticação robusta e túneis seguros para conexões cliente-servidor.</p>
+
+            <h3>Implementações Realizadas:</h3>
+            <ul>
+                <li>Configuração de SSL/TLS para conexões seguras</li>
+                <li>Implementação de VPN para acesso remoto</li>
+                <li>Configuração de usuários com privilégios específicos</li>
+                <li>Monitoramento de conexões e auditoria</li>
+                <li>Backup e replicação de dados</li>
+            </ul>
+
+            <h3>Segurança:</h3>
+            <p>Implementação de firewall de aplicação, whitelist de IPs, autenticação de dois fatores e criptografia end-to-end.</p>
+
+            <h3>Tecnologias:</h3>
+            <p>MySQL, PostgreSQL, OpenVPN, iptables, SSL certificates, SSH tunneling.</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal-api" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-api')">&times;</span>
+        <h2>API REST Completa</h2>
+        <div class="conteudo-artigo">
+            <p>Desenvolvimento de uma API REST robusta e escalável, implementando as melhores práticas de segurança e arquitetura. Este projeto serve como base para aplicações web modernas, oferecendo endpoints seguros e bem documentados.</p>
+
+            <h3>Funcionalidades Implementadas:</h3>
+            <ul>
+                <li>Sistema completo de autenticação com JWT</li>
+                <li>Middleware de autorização por roles</li>
+                <li>Validação de dados com Joi</li>
+                <li>Rate limiting para prevenção de ataques</li>
+                <li>Logging estruturado com Winston</li>
+                <li>Documentação automática com Swagger</li>
+                <li>Testes unitários e de integração</li>
+            </ul>
+
+            <h3>Arquitetura:</h3>
+            <p>Implementação seguindo padrões REST, com separação clara entre camadas (Controller, Service, Repository). Utilização de middleware personalizado para tratamento de erros e validações.</p>
+
+            <h3>Segurança:</h3>
+            <p>Implementação de CORS, helmet para headers de segurança, bcrypt para hash de senhas, e sanitização de dados de entrada para prevenir ataques de injeção.</p>
+
+            <h3>Performance:</h3>
+            <p>Cache com Redis, compressão gzip, paginação otimizada e queries indexadas no MongoDB para garantir alta performance mesmo com grande volume de dados.</p>
+        </div>
+    </div>
+</div>
+
+<div id="modal-dashboard" class="modal-projeto">
+    <div class="conteudo-modal">
+        <span class="fechar-modal" onclick="fecharModal('modal-dashboard')">&times;</span>
+        <h2>Dashboard Analytics</h2>
+        <div class="conteudo-artigo">
+            <p>Dashboard interativo para visualização de métricas e analytics em tempo real. Desenvolvido com React e integração com múltiplas fontes de dados, oferecendo insights valiosos através de gráficos dinâmicos e relatórios customizáveis.</p>
+
+            <h3>Características Principais:</h3>
+            <ul>
+                <li>Visualizações interativas com Chart.js e D3.js</li>
+                <li>Atualizações em tempo real via WebSocket</li>
+                <li>Filtros avançados e drill-down de dados</li>
+                <li>Exportação de relatórios em PDF e Excel</li>
+                <li>Dashboard responsivo e mobile-friendly</li>
+                <li>Sistema de alertas personalizáveis</li>
+                <li>Integração com Google Analytics e APIs externas</li>
+            </ul>
+
+            <h3>Tecnologias Frontend:</h3>
+            <p>React com hooks personalizados, Context API para gerenciamento de estado, Material-UI para componentes, e React Query para cache e sincronização de dados.</p>
+
+            <h3>Backend e Dados:</h3>
+            <p>API Node.js com Express, Redis para cache de métricas, WebSocket para comunicação em tempo real, e integração com bancos de dados PostgreSQL e MongoDB.</p>
+
+            <h3>Funcionalidades Avançadas:</h3>
+            <p>Sistema de permissões granulares, dashboards personalizáveis por usuário, agendamento de relatórios automáticos, e integração com ferramentas de BI como Tableau e Power BI.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer class="rodape">
+    <p>&copy; <span id="ano-atual"></span> Endrew Berthold. Todos os direitos reservados.</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
